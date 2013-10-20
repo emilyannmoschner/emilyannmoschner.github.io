@@ -6,12 +6,17 @@
 
 body {
     font-family: georgia, serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 p {
+    font-family: century schoolbook, century, serif;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 16px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 
 header {
@@ -20,12 +25,13 @@ header {
 }
 
 header h1 {
-    float: left;
-    font-family: varela round, arial, sans-serif;
+    float: right;
+    font-family: varela round, futura, sans-serif;
     font-size: 12px;
     font-weight: 500;
     padding: 10px; /* TRouBLe */
-    text-decoration-color: #195E47
+    color: #195E47;
+    letter-spacing: 2px;
 }
 
 header nav {
@@ -33,9 +39,12 @@ header nav {
     margin-top: 12px;
 }
     
-    
+header div {
+    padding-right: 120px;
+}
+
 header a {
-    color: #aaaaaa;
+    color: #195E47;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -43,21 +52,34 @@ header a {
 header a:link {}
 header a:visited {}
 header a:hover {
-    color: #ffffff;    
+    color: #F85840;    
 }
 header a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 header a:focus {} 
 
-nav img a {
+nav img {
     float: left;
+    margin-left: 180px;
+    padding: 60px;
     
 }
 
+nav aside {
+    float: right
+}
 
 article {
+    font-size: 36px;
     clear: both;
+}
+
+article img{ 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 
 article h1 {
@@ -70,4 +92,19 @@ article h2 {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 4px;
+}
+
+footer {
+    background-color: #EADABE;
+    height: 120px;
+    margin-top: 60px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    font-family: varela round, futura, sans-serif;
+    line-height: 120px;
+    letter-spacing: 2px;
+    
 }
