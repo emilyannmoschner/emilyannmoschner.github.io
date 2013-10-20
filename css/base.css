@@ -39,10 +39,6 @@ header nav {
     margin-top: 12px;
 }
     
-header div {
-    padding-right: 120px;
-}
-
 header a {
     color: #195E47;
     margin-right: 20px;
@@ -62,7 +58,7 @@ header a:focus {}
 nav img {
     float: left;
     margin-left: 180px;
-    padding: 60px;
+    padding: 52px;
     
 }
 
@@ -79,7 +75,7 @@ article img{
     display: block; 
     margin-left: auto; 
     margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 52px;
 }
 
 article h1 {
@@ -97,7 +93,7 @@ article h2 {
 footer {
     background-color: #EADABE;
     height: 120px;
-    margin-top: 60px;
+    margin-top: 52px;
 }
 
 footer p {
