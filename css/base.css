@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: georgia, serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+header {
+    background-color: #F4F5EE;
+    height: 44px;
+}
+
+header h1 {
+    float: left;
+    font-family: varela round, arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px; /* TRouBLe */
+    text-decoration-color: #195E47
+}
+
+header nav {
+    float: left;
+    margin-top: 12px;
+}
+    
+    
+header a {
+    color: #aaaaaa;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+header a:link {}
+header a:visited {}
+header a:hover {
+    color: #ffffff;    
+}
+header a:active {
+    text-decoration: underline;
+}
+header a:focus {} 
+
+nav img a {
+    float: left;
+    
+}
+
+
+article {
+    clear: both;
+}
+
+article h1 {
+    font-size: 36px;
+    line-height: 44px
+    margin-top: 4px;
+}
+
+article h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 4px;
+}
