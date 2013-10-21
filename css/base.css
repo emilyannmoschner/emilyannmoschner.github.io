@@ -62,16 +62,19 @@ nav img {
     
 }
 
-nav aside {
-    float: right
-}
-
 article {
     font-size: 36px;
     clear: both;
 }
 
 article img{ 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 52px;
+}
+
+article object {
     display: block; 
     margin-left: auto; 
     margin-right: auto;
@@ -88,6 +91,24 @@ article h2 {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 4px;
+}
+
+article h3 {
+    font-size: 16px;
+    font-family: varela round, futura, sans-serif;
+    line-height: 24px;
+    margin-bottom: 4px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+article h3 a:hover {
+    color: #F85840;
 }
 
 footer {
