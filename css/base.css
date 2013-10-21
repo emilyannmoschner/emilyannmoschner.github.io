@@ -72,6 +72,7 @@ article img{
     margin-left: auto; 
     margin-right: auto;
     margin-bottom: 52px;
+    margin-top: 52px;
 }
 
 article object {
@@ -81,6 +82,11 @@ article object {
     margin-bottom: 52px;
 }
 
+article hr {
+    border-top-color: #F4F5EE;
+    margin-top: 52px;
+    margin-bottom: 52px; 
+}
 article h1 {
     font-size: 36px;
     line-height: 44px
@@ -95,6 +101,7 @@ article h2 {
 
 article h3 {
     font-size: 16px;
+    color: #EADABE;
     font-family: varela round, futura, sans-serif;
     line-height: 24px;
     margin-bottom: 4px;
@@ -104,6 +111,14 @@ article h3 {
 
 a {
     color: #000000;
+    font-weight: 700;
+}
+
+article a:hover {
+    color: #F85840;
+}
+
+article a:active {
     text-decoration: none;
 }
 
