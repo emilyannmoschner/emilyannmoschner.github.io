@@ -140,3 +140,22 @@ footer p {
     letter-spacing: 2px;
     
 }
+
+@media screen (max-width: 600px) {
+    
+    header h1 {
+        border: 50px solid red;   
+    }    
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
