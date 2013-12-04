@@ -13,18 +13,20 @@ body {
 header {
     background-color: #F4F5EE;
     height: 240px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header nav {
     float: right;
     width: 100%;
+    overflow-x: hidden;
     margin-left: 0 auto;
     margin-right: 0 auto;
     text-align: center;
     font-family: varela round, futura, sans-serif;
     font-size: 18px;
     font-weight: 500;
-    padding: 10px; /* TRouBLe */
     color: #1C5E48;
     letter-spacing: 2px;
 }
@@ -60,6 +62,7 @@ article {
     font-size: 36px;
     clear: both;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* This is the main picture on each page */ 
@@ -74,7 +77,7 @@ p {
     font-family: century schoolbook, century, serif;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     margin-left: 240px;
     margin-right: 240px;
 }
@@ -93,11 +96,12 @@ article h2 {
 }
 
 article h3 {
-    font-size: 16px;
+    font-size: 18px;
     color: #EADABE;
     font-family: varela round, futura, sans-serif;
     line-height: 24px;
-    margin-bottom: 4px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     margin-left: 240px;
     margin-right: 240px;
 }
