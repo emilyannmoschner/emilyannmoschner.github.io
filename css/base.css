@@ -22,7 +22,7 @@ header nav {
     margin-right: 0 auto;
     text-align: center;
     font-family: varela round, futura, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px; /* TRouBLe */
     color: #1C5E48;
@@ -54,15 +54,15 @@ header img {
     align-content: center;
     color: #195E47;
     letter-spacing: 2px;
-}   
-
-/* This is my main picture on my about page */    
+}    
 
 article {
     font-size: 36px;
     clear: both;
     width: 100%;
 }
+
+/* This is the main picture on each page */ 
 
 article img {
     align-content: center;
