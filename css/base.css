@@ -82,6 +82,17 @@ p {
     margin-right: 240px;
 }
 
+ul
+{
+font-family:century schoolbook, century, serif;
+font-size:16px;
+font-weight:400;
+text-align: justify;
+margin-bottom: 12px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
 
 article h1 {
     font-size: 36px;
@@ -123,7 +134,95 @@ footer p {
 
 /* Media Screen: Mobile Devices */
 
-@media screen (max-width: 600px) {
+@media screen and (max-width: 700px) {
+    
+   * {
+       box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }           
+    
+    * img {
+        max-width: 700px;
+    }   
+    
+    header {
+        float: none;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }    
+    
+    header nav{
+        float: right;
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0 auto;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        text-align: center;
+        font-family: varela round, futura, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #1C5E48;
+        letter-spacing: 2px;
+        padding: 10px 5px 10px 5px;
+        
+
+        height: 100px;
+        line-height: 30px;
+    }
+        
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    nav {
+        width: 100%;
+    }
+
+    h1, h2, h3, h4 {
+        text-align: center;
+    }  
+    
+    h2 {
+       margin-top: 15px; 
+    }    
+    
+    header img {
+    
+    }   
+
+    #me img {
+        width: 100%;
+        align-content: center;
+        padding-bottom: 20px;
+        border: none;
+    }    
+ 
+    article {
+        width: 100%;
+        margin: 0 
+    }
+    
+    article img {
+        width: 600px;
+    }    
+    
+
+    
+    article a {
+        width: 100%;
+    }    
+        
+    section {
+        width: 100%;
+        align-content: center;
+        margin: 10px 0 10px 0; 
+    } 
+    
+}
     
 
 
