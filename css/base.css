@@ -10,37 +10,27 @@ body {
     line-height: 16px;
 }
 
-p {
-    font-family: century schoolbook, century, serif;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-    margin-left: 240px;
-    margin-right: 240px;
-}
-
 header {
     background-color: #F4F5EE;
-    height: 44px;
+    height: 240px;
 }
 
-header h1 {
+header nav {
     float: right;
+    width: 100%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
     font-family: varela round, futura, sans-serif;
     font-size: 12px;
     font-weight: 500;
     padding: 10px; /* TRouBLe */
-    color: #195E47;
+    color: #1C5E48;
     letter-spacing: 2px;
 }
 
-header nav {
-    float: left;
-    margin-top: 12px;
-}
-    
 header a {
-    color: #195E47;
+    color: #1C5E48;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -53,40 +43,43 @@ header a:hover {
 header a:active {
     text-decoration: none;
 }
-header a:focus {} 
 
-nav img {
-    float: left;
-    margin-left: 180px;
-    padding: 52px;
-    
-}
+header img {
+    margin-right: 50%;
+    margin-left: 42%;
+    font-family: varela round, futura, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 24px 24px 24px 24px;
+    align-content: center;
+    color: #195E47;
+    letter-spacing: 2px;
+}   
+
+/* This is my main picture on my about page */    
 
 article {
     font-size: 36px;
     clear: both;
+    width: 100%;
 }
 
-article img{ 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-    margin-bottom: 52px;
-    margin-top: 52px;
+article img {
+    align-content: center;
+    padding: 20px 100px 20px 100px;
+    margin: 0 5% 0 12%; 
 }
 
-article object {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-    margin-bottom: 52px;
+p {
+    font-family: century schoolbook, century, serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 
-article hr {
-    border-top-color: #F4F5EE;
-    margin-top: 52px;
-    margin-bottom: 52px; 
-}
+
 article h1 {
     font-size: 36px;
     line-height: 44px
@@ -109,23 +102,6 @@ article h3 {
     margin-right: 240px;
 }
 
-a {
-    color: #000000;
-    font-weight: 700;
-}
-
-article a:hover {
-    color: #F85840;
-}
-
-article a:active {
-    text-decoration: none;
-}
-
-article h3 a:hover {
-    color: #F85840;
-}
-
 footer {
     background-color: #EADABE;
     height: 120px;
@@ -141,15 +117,10 @@ footer p {
     
 }
 
+/* Media Screen: Mobile Devices */
+
 @media screen (max-width: 600px) {
     
-    header h1 {
-        border: 50px solid red;   
-    }    
-    
-    }
-    
-}
 
 
 
